@@ -1,0 +1,91 @@
+pacman::p_load(rvest)
+
+##Inicialization
+storename_data<-list()
+storeaddress_data<-list()
+
+for (i in 1:8){
+#Specifying the url for desired website to be scrapped
+url <- paste0('https://www.civico.com/bogota/sucursales/tiendas-d1?page=',i)
+#Reading the HTML code from the website
+webpage <- read_html(url)
+
+#Using CSS selectors to scrap the stores names and addresses 
+storename_data_html <- html_nodes(webpage,'.name')
+storeaddress_data_html<-html_nodes(webpage,'.streetAddress')
+
+#Converting the html data to text
+storename_data[[i]]<- html_text(storename_data_html)
+storeaddress_data[[i]]<-html_text(storeaddress_data_html)
+
+}
+
+head(storename_data)
+head(storeaddress_data)
+
+##converting list to arrays
+storeaddress_data<-unlist(storeaddress_data)
+storename_data<-unlist(storename_data)
+
+head(storename_data)
+head(storeaddress_data)
+
+##cleaning data
+storename_data<-gsub("\n","",storename_data)
+storeaddress_data<-gsub("\n","",storeaddress_data)
+
+#dataframe
+df<-data.frame('Nombre Tienda'=storename_data,'Direccion'=storeaddress_data)
+
+head(df)
+
+
+pacman::p_load(ggmap)
+
+##Addresses preparation for georef
+fuera<-c(4,35,38,44,60,63,80)
+indfr<-array(0,108)
+indfr[fuera]=1
+df$fuera=indfr
+
+df[c(4,63),3]<-"Cajicá, Cundinamarca"
+df[c(35,60),3]<-"Chía, Cundinamarca"
+df[c(38,80),3]<-"Cota, Cundinamarca"
+df[44,3]<-"Funza, Cundinamarca"
+df$DireccionGeo<-ifelse(indfr==0,paste(df$Direccion,"Bogotá DC, Bogotá",sep = " "),
+                        paste(df$Direccion,df$fuera,sep = " "))
+
+##Generate stores and Bogota City locations, it could take a few seconds for df processing
+d1loc <- geocode(as.character(df$DireccionGeo))
+Bog<-geocode('Bogotá, Colombia')
+d1loc<-cbind(df,d1loc)
+#Getting the map
+map.d1 <- get_map( location = Bog,
+                       color = "color",
+                       maptype = "roadmap",
+                       scale = 2,
+                       zoom = 11)
+
+#Drawing the map (static)
+ggmap(map.d1) 
+
+#Visualize D1 Stores on the map (static)
+
+ggmap(map.d1) + geom_point(aes(x = lon, y = lat),
+                               data = na.omit(d1loc), colour = 'red',
+                               size = 1)
+
+
+##Representing stores on an interactive map from rMaps Library
+pacman::p_load(rMaps)
+map <- Leaflet$new()
+map$setView(c(4.710989,-74.07209), zoom = 11)
+
+i=1
+while(i<=dim(na.omit(d1loc))[1]){
+  map$marker(LatLng = cbind(na.omit(d1loc$lat),na.omit(d1loc$lon))[i,],
+             bindPopup=paste(na.omit(d1loc)[i,1],na.omit(d1loc)[i,2],sep='\t'))
+  i<-i+1
+}
+
+map
