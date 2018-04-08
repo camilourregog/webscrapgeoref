@@ -1,0 +1,390 @@
+X,Departamento,Municipio,Barrio,Direccion
+1,Antioquia,Medellín,Alfonso Lopez,Calle 91 A # 71-35
+2,Antioquia,Medellín,Altos de San juan,Calle 43 # 115A-131
+3,Antioquia,Medellín,America,Carrera 65A # 48C-26
+4,Antioquia,Medellín,Aranjuez,Calle 93 # 50B-02
+5,Antioquia,Medellín,AV nutibara,Transversal 39B # 73-23
+6,Antioquia,Medellín,Avenida las Palmas,Carrera 38 # 26-289
+7,Antioquia,Medellín,Barrio Cristobal,Carrera 88 # 39-53
+8,Antioquia,Medellín,Belencito,Carrera 92 # 34C-12
+9,Antioquia,Medellín,Bomboná,Calle 49 # 43-44
+10,Antioquia,Medellín,Boston ,Calle 55 # 34-52
+11,Antioquia,Medellín,Buenos Aires,Carrera 35 # 48 A-57
+12,Antioquia,Medellín,Calasanz,Carrea 82 # 51-20
+13,Antioquia,Medellín,Campo Valdes,Calle 77 # 47-49
+14,Antioquia,Medellín,Castilla,Calle 98 # 69-41
+15,Antioquia,Medellín,Central,Calle 81 #44-37
+16,Antioquia,Medellín,Chagualo,Calle 61 # 56A-17
+17,Antioquia,Medellín,Colombia,Calle 49B # 67A-32
+18,Antioquia,Medellín,Conquistadores,Carrera 66 A # 34B-32/36
+19,Antioquia,Medellín,El Velodromo,Carrera 78 # 45A-75
+20,Antioquia,Medellín,Esmeraldas,Calle 86 # 43B-01
+21,Antioquia,Medellín,Floresta,Carrera 80 # 46-48
+22,Antioquia,Medellín,Florida,Calle 71 # 66-85
+23,Antioquia,Medellín,Florida Nueva,Calle 44 A #71-86
+24,Antioquia,Medellín,Gardel Plaza,Calle 72 # 44-96
+25,Antioquia,Medellín,Hotel Nutibara,Carrera 51 # 52A-24
+26,Antioquia,Medellín,La Milagrosa,Calle 42 # 31-50
+27,Antioquia,Medellín,Laureles,Carrera 78 A # 34A -14
+28,Antioquia,Medellín,los Colores,Carrera 73 # 51A -10
+29,Antioquia,Medellín,Parque,Carrera 49 # 55-11
+30,Antioquia,Medellín,Parque Bolivar,Carrera 49 # 55-11
+31,Antioquia,Medellín,Prado Centro,Carrera 49 # 61-53
+32,Antioquia,Medellín,Prado Hospital,Carrera 50 D #66-16
+33,Antioquia,Medellín,San Cayetano,Carrera 51 # 88-44
+34,Antioquia,Medellín,San cristobal,Carrera 131 # 60-75
+35,Antioquia,Medellín,San Javier,Carrera 98 # 41-55
+36,Antioquia,Medellín,San Joaquin,Carrera 65 # 42-29
+37,Antioquia,Medellín,San Joaquin 2,Calle 44 # 69-67
+38,Antioquia,Medellín,Santa Lucía,Calle 47F # 86-33
+39,Antioquia,Medellín,Santa Monica,Calle 43 # 92-105
+40,Antioquia,Medellín,Santa Rita,Calle 35B # 84B-40
+41,Antioquia,Medellín,Sevilla,Calle 69 # 51D-59
+42,Antioquia,Medellín,Simon Bolivar,Carrera 82 # 43B-19
+43,Antioquia,Medellín,Suramericana,Carrera 65A # 48C-26
+44,Antioquia,Medellín,Tarapaca,Calle 44 # 80-23/31
+45,Antioquia,Medellín,Villa Hermosa,Calle 61 # 42-39
+46,Antioquia,Santa fe de Antioquia,La chinca,Calle 10 # 12-40/12-48
+47,Antioquia,Santa fe de Antioquia,Santa Lucia,Calle 9 # 2-50
+48,Antioquia,Barbosa,Parque,Carrera 14 # 11 - 00
+49,Antioquia,Bello,Arboletes,Avenida 42B # 51-51
+50,Antioquia,Bello,Cabañas,Carrera 51 # 25-23
+51,Antioquia,Bello,Fontidueño,Diagonal 44 # 32-127
+52,Antioquia,Bello,Marco Fidel,Calle 51 # 51-26
+53,Antioquia,Bello,Maria Goretti,Calle 65 # 64-32
+54,Antioquia,Bello,Mesa,Calle 58 # 54-61/65
+55,Antioquia,Bello,Niquia,Diagonal 62 #40B -41
+56,Antioquia,Bello,Obrero,Carrera 53 # 36-20
+57,Antioquia,Bello,Paris,Carrera 72 # 20D-54
+58,Antioquia,Bello,Perez,Calle 52 C # 57-38
+59,Antioquia,Bello,Prado,Calle 54 # 46-63
+60,Antioquia,El carmen de viboral,La Alhambra,Carrera 31 # 34-8
+61,Antioquia,El carmen de viboral,Sector El Divino Niño,Calle 27 # 30-58
+62,Antioquia,Copacabana,Asunción ,Carrera 57 # 50-11
+63,Antioquia,Copacabana,San Juan,Calle 50 # 39-126
+64,Antioquia,Copacabana,Vereda el Noral,Autopista #te Km14 Vereda el #al Copacabana
+65,Antioquia,Don matias,Parque,Calle 30 # 30-30
+66,Antioquia,Envigado,Las Palmas,Kilometro 17 Vía Las Palmas Predio 664 peaje.
+67,Antioquia,Envigado,Vereda Pantanillo - Sector El Cebadero,Vereda Pantanillo Variante Las Palmas Km 7
+68,Antioquia,Girardota,La Santana ,Carrera 16 # 7-140
+69,Antioquia,Girardota,Parque,Calle 6 # 14-29
+70,Antioquia,Granada,Parque Principal,Carrera 21 # 20-31
+71,Antioquia,Guarne,San Francisco,Carrera 51 # 44-12 int 201
+72,Antioquia,Guarne,Santa Ana,Carrera 52 # 52-44
+73,Antioquia,La ceja,Barrio San Judas,Mall plaza Cantarrana Locales 1 y 2 vía San Antonio de Pereira-La ceja
+74,Antioquia,La ceja,El Carmelo,Carrera 26 # 19-56
+75,Antioquia,La ceja,San Cayetano,Carrera 20 # 24-56
+76,Antioquia,La ceja,Sector Cuatro Esquinas,Carrera 20 # 12-52
+77,Antioquia,La ceja,Sector Teatro Municipal,Carrera 22 # 17-24
+78,Antioquia,La union,Parque Principal,Carrera 9 # 10-26
+79,Antioquia,Marinilla,Bariloche,Calle 29 # 44A-11
+80,Antioquia,Marinilla,La Dalia,Carrera 31 # 23-34
+81,Antioquia,Marinilla,Las Margaritas,Calle 29 # 36-56
+82,Antioquia,Marinilla,Parque Principal,Calle 30 # 30-36
+83,Antioquia,Peñol,Sector 1,Calle 10 #11A-32
+84,Antioquia,Retiro,Diagonal al Parque Principal,Calle 19 #19-47
+85,Antioquia,Retiro,Vereda Villa Elena,Carrera 20 # 35-145
+86,Antioquia,Rionegro,Barrio Santa Fe,Carrera 55A # 24-76
+87,Antioquia,Rionegro,El Porvenir Primera Etapa,Carrera 65 # 41B-103
+88,Antioquia,Rionegro,El Porvenir Sector El Carretero,Calle 47 # 65-23
+89,Antioquia,Rionegro,Parque Principal,Calle 49 # 50-83
+90,Antioquia,Rionegro,San Francisco,Carrera 46 # 51-69
+91,Antioquia,Rionegro,Santa Ana,Calle 41 # 46-34
+92,Antioquia,Rionegro,Sector Plaza de Mercado,Carrera 46 # 58-20
+93,Antioquia,Rionegro,Urbanización Riogrande,Carrera 51 #40A-17
+94,Antioquia,Rionegro,Vereda Barro Blanco,Cancha Sintética - vereda Barro Blanco
+95,Antioquia,Rionegro,Vereda El Chipre - Sector La Amalita,Mall La Amalita
+96,Antioquia,Rionegro,Vereda Sajonia,Mall Aerocentro Local 104
+97,Antioquia,San jeronimo,La principal,Carrera 11 # 21-48
+98,Antioquia,San pedro,Plaza Principal,Calle 49 # 49 A - 29/31
+99,Antioquia,San vicente,Plaza de Mercado,Calle 26 AA # 34-102
+100,Antioquia,Santa rosa de osos,El Palo,Carrera 28 # 27-46
+101,Antioquia,El santuario,Parque Principal,Calle 50 # 49-37
+102,Antioquia,Sonson,Barrio Centro,Calle 6 # 5-23/31
+103,Antioquia,Sopetran,Parque,Calle 10 # 8-14
+104,Antioquia,Yarumal,Epifanio,Carrera 20 # 16-34/42
+105,Antioquia,Yarumal,La Caliente,Calle 21 # 20-37
+106,Santander,Bucaramanga,Aurora,Calle 35 # 27-01
+107,Santander,Bucaramanga,Cabecera,Carrera 36 # 48-65
+108,Santander,Bucaramanga,San Alonso,Avenida Quebradaseca # 27-65
+109,Santander,Bucaramanga,San Francisco,Calle 14 # 21-65
+110,Santander,Floridablanca,Niza,Carrera 27A # 122-57
+111,Santander,Piedecuesta,San Rafael,Calle 8 # 12-84
+112,Caldas,Manizales,Alta Suiza,Transversal 72 # 20-29
+113,Caldas,Manizales,Avenida Santander,Carrera 23 #46-91
+114,Caldas,Manizales,Cambulos,Carrera 43 # 65B-15
+115,Caldas,Manizales,Centro,Carrera 23 # 15-45
+116,Caldas,Manizales,Chipre,Calle 12 # 13A-41
+117,Caldas,Manizales,El Campin,Carrera 28 # 48A-41
+118,Caldas,Manizales,El Carmen,Calle 18 # 26-44
+119,Caldas,Manizales,La Francia,Carrera 15 # 4B-65
+120,Caldas,Manizales,Linares,Calle 33A # 24-2
+121,Caldas,Manizales,Palermo,Calle 66A # 26-50
+122,Caldas,Manizales,San José,Carrera 19 # 29-42
+123,Caldas,Anserma,Sector Galería ,Carrera 5 # 10-53
+124,Caldas,Chinchina,La Estación,Calle 13 # 6-11
+125,Caldas,Neira,Calle Real,Carrera 10 # 8-34
+126,Caldas,Riosucio,Sector Parque la Candelaria,Carrera 7 # 6-15
+127,Caldas,Supia,Centro,Calle 33 # 7-35/45
+128,Caldas,Villamaria,Centro ,Carrera 6 # 9-51
+129,Caldas,Villamaria,Pradera,Calle 6 # 11-54
+130,Caldas,Viterbo,Centro,Calle 8 # 6-22
+131,Risaralda,Pereira,Álamos,Calle 12 # 27-116
+132,Risaralda,Pereira,Alfonso López,Carrera 11 # 2E-76 Local 08-10
+133,Risaralda,Pereira,América,Carrera 3 # 15-29
+134,Risaralda,Pereira,Belmonte,Avenida 30 de Agosto # 87-220
+135,Risaralda,Pereira,Buenos Aires,Avenida 30 de Agosto # 34-38
+136,Risaralda,Pereira,Centro,Carrera 9 # 20-25
+137,Risaralda,Pereira,Ciudad Boquía - Parque Industrial,Calle 63 # 5-22
+138,Risaralda,Pereira,La Rebeca,Calle 2 # 12-24.
+139,Risaralda,Pereira,Pinares,Calle 14 # 19-70
+140,Risaralda,Pereira,Poblado 2,Carrera 28B y 29 Calle 33 y 33B
+141,Risaralda,Pereira,Primero de Mayo,Carrera 7 # 30-02
+142,Risaralda,Pereira,Providencia,Avenida Sur #22-23
+143,Risaralda,Pereira,San Joaquín,Calle 78 # 29-20
+144,Risaralda,Pereira,Sector Galicia,Portal del Campo Manzana-1
+145,Risaralda,Pereira,Urbanización Portoalegre,Carrera 49 #85-25
+146,Risaralda,Pereira,Urbanización Residencial Altavista,Calle 80 # 29-16
+147,Risaralda,Pereira,Venecia,Calle 41 # 8-39
+148,Risaralda,Pereira,Vereda Tribunas,Kilometro 7 Vía Pereira - Armenia
+149,Risaralda,Pereira,Villa Verde,Calle 33 # 36-50 Local 1 y 2
+150,Risaralda,Dosquebradas,Avenida Ferrocarril,Calle 20 # 10-18
+151,Risaralda,Dosquebradas,Buenos Aires,Carrera 16 # 42-27
+152,Risaralda,Dosquebradas,Frailes,Carrera 43 B # 21-34
+153,Risaralda,Dosquebradas,Guadalupe,Calle 38 # 11-51.
+154,Risaralda,Dosquebradas,La Capilla,Carrera 16 # 65-46
+155,Risaralda,Dosquebradas,La Pradera,Carrera 21 # 23-33
+156,Risaralda,Dosquebradas,Los Molinos ,Calle 44 # 44F-03
+157,Risaralda,Dosquebradas,Valher,Carrera 17 #10-75
+158,Risaralda,La virginia,Sector Plaza de Mercado,Transversal 7 N° 7-139
+159,Risaralda,Marsella,Sector Galerías,Calle 9 #12-45
+160,Risaralda,Santa rosa de cabal,Galería,Carrera 13 # 14-25
+161,Risaralda,Santa rosa de cabal,La Hermosa,Carrera 23 # 21-02
+162,Cundinamarca,"Bogotá, DC",12 De Octubre,Carrera 55 # 73-35
+163,Cundinamarca,"Bogotá, DC",20 de Julio ,Calle 27 sur # 9-29
+164,Cundinamarca,"Bogotá, DC",Alcalá,Calle 136 # 45A-44
+165,Cundinamarca,"Bogotá, DC",Alhambra,Carrera 50 # 118-46
+166,Cundinamarca,"Bogotá, DC",Alqueria,Calle 44 sur # 52C-70
+167,Cundinamarca,"Bogotá, DC",Andes,Calle 98 A # 60-92
+168,Cundinamarca,"Bogotá, DC",Antiguo Contry,Calle 82 # 16A-24
+169,Cundinamarca,"Bogotá, DC",Barrancas,Carrera 7f # 154-07
+170,Cundinamarca,"Bogotá, DC",Batan,Avenida Carrera 45 # 123-75
+171,Cundinamarca,"Bogotá, DC",Belalcazar,Carrera 30 # 49A-64
+172,Cundinamarca,"Bogotá, DC",Bella Suiza,Avenida Calle 127 # 7-77
+173,Cundinamarca,"Bogotá, DC",Boyacá,Carrera 72 # 71A-69
+174,Cundinamarca,"Bogotá, DC",Boyaca Real,Carrera 77 # 65A-04/12
+175,Cundinamarca,"Bogotá, DC",Brasil,Carrera 88C # 54C-87 Sur
+176,Cundinamarca,"Bogotá, DC",Caminos del Norte,Carrera 9A # 192-60 Local 6
+177,Cundinamarca,"Bogotá, DC",Capuchina,Calle 17 # 12-68
+178,Cundinamarca,"Bogotá, DC",Carvajal,Carrera 69 # 31-24 Sur
+179,Cundinamarca,"Bogotá, DC",Castellana,Avenida Carrera 50 # 94C-18
+180,Cundinamarca,"Bogotá, DC",Cayetano,Calle 41 sur F # 80 H-26
+181,Cundinamarca,"Bogotá, DC",Cedritos,Carrera 7A # 140-31 Local 105
+182,Cundinamarca,"Bogotá, DC",Cedro Golf,Calle 147 # 9-53
+183,Cundinamarca,"Bogotá, DC",Cedro Salazar,Calle 152 # 7-64
+184,Cundinamarca,"Bogotá, DC",Centenarío,Carrera 26B # 28-27 sur
+185,Cundinamarca,"Bogotá, DC",Chapinero,Calle 57 # 14-69
+186,Cundinamarca,"Bogotá, DC",Chapinero Norte,Carrera 8 # 63-27
+187,Cundinamarca,"Bogotá, DC",Chapinero Sur Occidental,Calle 57 # 14-69
+188,Cundinamarca,"Bogotá, DC",Chico,Carrera 11 # 93A-65
+189,Cundinamarca,"Bogotá, DC",Ciudad Jardín Sur,Carrera 10 #13-89 sur
+190,Cundinamarca,"Bogotá, DC",Class,Carrera 80A # 65-36 sur
+191,Cundinamarca,"Bogotá, DC",Concepcion Norte,Calle 67 # 14A-10
+192,Cundinamarca,"Bogotá, DC",Contador,Carrera 18 # 136A-14
+193,Cundinamarca,"Bogotá, DC",El Carmen,Carrera 100 #16i-25
+194,Cundinamarca,"Bogotá, DC",El Progreso,Calle 3 # 19A-36
+195,Cundinamarca,"Bogotá, DC",El Recuerdo,Calle 3 # 19A-36
+196,Cundinamarca,"Bogotá, DC",El Rubi,Calle 23 A # 96F-50
+197,Cundinamarca,"Bogotá, DC",Engativa Mirador,Calle 64 # 120-45
+198,Cundinamarca,"Bogotá, DC",Engativa Pueblo,Carrera 121 # 64-31
+199,Cundinamarca,"Bogotá, DC",Española,Diagonal 84A # 76C-04
+200,Cundinamarca,"Bogotá, DC",Ferias,Calle 73 # 69-54
+201,Cundinamarca,"Bogotá, DC",Floresta Norte,Carrera 69 # 98-44
+202,Cundinamarca,"Bogotá, DC",Fontibon Centro,Carrera 102 # 19-75
+203,Cundinamarca,"Bogotá, DC",Gaitan,Carrera 55B # 76-45
+204,Cundinamarca,"Bogotá, DC",Galerias,Calle 51 # 26-26
+205,Cundinamarca,"Bogotá, DC",Kennedy Norte,Carrera 78k #39-04 sur
+206,Cundinamarca,"Bogotá, DC",La Esperanza,Calle 63 # 15-18
+207,Cundinamarca,"Bogotá, DC",La Estancia,Carrera 75 # 57R -08 Sur
+208,Cundinamarca,"Bogotá, DC",La Estrada,Carrera 70B # 64B-24 Local 3
+209,Cundinamarca,"Bogotá, DC",La Estrella,Carrera 24 # 26-24/30
+210,Cundinamarca,"Bogotá, DC",La Fraguita,Carrera 27 # 9-26 Sur
+211,Cundinamarca,"Bogotá, DC",La Giralda,Calle 22H # 104B-61
+212,Cundinamarca,"Bogotá, DC",La Granja,Calle 79 # 77b-83
+213,Cundinamarca,"Bogotá, DC",La Perla,Av Calle 72 # 111A-01
+214,Cundinamarca,"Bogotá, DC",La Pradera,Carrera 65A #4B-46
+215,Cundinamarca,"Bogotá, DC",La Soledad,Carrera 19 # 34-61
+216,Cundinamarca,"Bogotá, DC",La Trinidad,Calle 4G # 66-98
+217,Cundinamarca,"Bogotá, DC",La Uribe,Calle 172 # 20A-13h
+218,Cundinamarca,"Bogotá, DC",Las Ferias,Carrera 69Q # 74B-37
+219,Cundinamarca,"Bogotá, DC",Las Nieves,Carrera 8 # 21-39
+220,Cundinamarca,"Bogotá, DC",León XIII,Carrera 8 # 21-39
+221,Cundinamarca,"Bogotá, DC",Lijacá,Carrera 8C # 186-72
+222,Cundinamarca,"Bogotá, DC",Los Alcazares Norte,Carrera 24 # 72-30
+223,Cundinamarca,"Bogotá, DC",Maria Paz,Diag 3 # 81C-03
+224,Cundinamarca,"Bogotá, DC",Matatigres,Calle 32 Sur # 26F-27
+225,Cundinamarca,"Bogotá, DC",Modelia,Carrera 75 # 24D-49
+226,Cundinamarca,"Bogotá, DC",Morato,Avenida Carrera 70 # 98-16
+227,Cundinamarca,"Bogotá, DC",Niza,Avenida Calle 127 # 70D-41
+228,Cundinamarca,"Bogotá, DC",Normandia,Calle 53 # 70-91
+229,Cundinamarca,"Bogotá, DC",Orquideas,Avenida Calle 161 # 16D-35
+230,Cundinamarca,"Bogotá, DC",Palermo,Calle 45 # 20-34
+231,Cundinamarca,"Bogotá, DC",Pardo Rubio,Carrera 7 # 44-62
+232,Cundinamarca,"Bogotá, DC",Pasadena,Carrera 45 # 103B-51
+233,Cundinamarca,"Bogotá, DC",Patio Bonito,Carrera 86 (Av. Cali) # 40B-51 sur
+234,Cundinamarca,"Bogotá, DC",Perdomo,Calle 64 sur #71F-77/83
+235,Cundinamarca,"Bogotá, DC",Pio XII,Tranversal 78C # 6-39
+236,Cundinamarca,"Bogotá, DC",Pontevedra,Avenida Boyacá # 99-64
+237,Cundinamarca,"Bogotá, DC",Prado Pinzón,Calle 144 # 45-16
+238,Cundinamarca,"Bogotá, DC",Prado Veraniego,Calle 129 # 53-26
+239,Cundinamarca,"Bogotá, DC",Primavera Norte,Calle 80C # 90-26
+240,Cundinamarca,"Bogotá, DC",Quesada,Avenida Caracas # 48-51
+241,Cundinamarca,"Bogotá, DC",Quinta Paredes,Avenida Esperanza # 48-50
+242,Cundinamarca,"Bogotá, DC",Quiroga,Carrera 24 # 32A-21 Sur
+243,Cundinamarca,"Bogotá, DC",Restrepo,Carrera 18 # 16-53 Sur
+244,Cundinamarca,"Bogotá, DC",Rionegro,Calle 93 # 60A-36
+245,Cundinamarca,"Bogotá, DC",Samper Mendoza,Carrera 25 # 22C-81
+246,Cundinamarca,"Bogotá, DC",San Andresito San José,Carrera 23 # 10-11
+247,Cundinamarca,"Bogotá, DC",San Antonio,Calle 183A # 11-08
+248,Cundinamarca,"Bogotá, DC",San Antonio Norte,Carrera 7 # 180-75
+249,Cundinamarca,"Bogotá, DC",San Benito,Calle 57 Sur # 19-43
+250,Cundinamarca,"Bogotá, DC",San Carlos ,Carrera 13F- # 52-56 sur
+251,Cundinamarca,"Bogotá, DC",San Cristóbal Norte,Calle 162 # 7F-84
+252,Cundinamarca,"Bogotá, DC",San Felipe,Avenida Caracas # 72A-11
+253,Cundinamarca,"Bogotá, DC",San Fernando ,Calle 72 A # 67-78
+254,Cundinamarca,"Bogotá, DC",San Fernando Occidental,Carrera 64 # 74-36
+255,Cundinamarca,"Bogotá, DC",San Jose,Carrera 100 # 23G-41
+256,Cundinamarca,"Bogotá, DC",San Miguel,Carrera 30 # 64-15
+257,Cundinamarca,"Bogotá, DC",San Nicolás,Calle 116 # 70D-87
+258,Cundinamarca,"Bogotá, DC",San Patricio,Calle 109 # 18B-31
+259,Cundinamarca,"Bogotá, DC",Santa Ana,Calle 106 # 7-25
+260,Cundinamarca,"Bogotá, DC",Santa Bárbara,Calle 120A # 7-14
+261,Cundinamarca,"Bogotá, DC",Santa Beatriz,Carrera 15 # 118-54
+262,Cundinamarca,"Bogotá, DC",Santa Sofia,Carrera 29B #77-48
+263,Cundinamarca,"Bogotá, DC",Santa Teresita,Calle 43 # 14-15
+264,Cundinamarca,"Bogotá, DC",Sena ,Carrera 30 #26-80 sur.
+265,Cundinamarca,"Bogotá, DC",Siete De Agosto,Calle 66 # 21-43
+266,Cundinamarca,"Bogotá, DC",Soledad Norte,Carrera 85A #78-60
+267,Cundinamarca,"Bogotá, DC",Tierra Santa,Calle 166 # 8F-93
+268,Cundinamarca,"Bogotá, DC",Toberin,Calle 164 # 16A-49
+269,Cundinamarca,"Bogotá, DC",Venecia ,Diagonal 49 #53-85 sur
+270,Cundinamarca,"Bogotá, DC",Veraguas,Carrera 30 # 4-43
+271,Cundinamarca,"Bogotá, DC",Victoria Norte,Autonorte # 149-29
+272,Cundinamarca,"Bogotá, DC",VillaAlsacia,Carrera 71F # 12-81
+273,Cundinamarca,"Bogotá, DC",Villas,Carrera 58 # 131A-16
+274,Cundinamarca,"Bogotá, DC",Villemar,Carrera 96G # 17B-39
+275,Cundinamarca,Cajica,Centro,Calle 1 # 4-50
+276,Cundinamarca,Cajica,El Bohio,Carrera 5 # 4Sur-154
+277,Cundinamarca,Cajica,El Molino,Kilometro 2 vía Cajicá-Tabio L1-01
+278,Cundinamarca,Cajica,Granjitas,Calle 7 # 10-63
+279,Cundinamarca,Cajica,La Estación.,Carrera 2 # 3-37
+280,Cundinamarca,Cajica,La Y,Diagonal 4 # 3Este-158
+281,Cundinamarca,Cajica,Santa Cruz,Calle 5 # 6-105
+282,Cundinamarca,Chia,Chilacos,Carrera 9 # 21-117
+283,Cundinamarca,Chia,Delicias Sur,Carrera 1 # 18-85
+284,Cundinamarca,Chia,El Campincito,Carrera 4 # 6A-20
+285,Cundinamarca,Chia,La Lorena,Carrera 12 # 4-86
+286,Cundinamarca,Chia,Santa Lucia,Carrera 10 # 5-47
+287,Cundinamarca,Chia,Santa Rita,Carrera 5A # 15-65
+288,Cundinamarca,Cogua,Centro,Carrera 3 # 2-58
+289,Cundinamarca,El rosal,San Carlos,Calle 10 # 8-38
+290,Cundinamarca,Facatativa,Copihue,Carrera 10 # 12-73
+291,Cundinamarca,Facatativa,Tisquesusa,Carrera 2 # 16A-53
+292,Cundinamarca,Funza,Centro,Carrera 12 # 16-53
+293,Cundinamarca,Funza,La Chaguya,Carrera 12 # 16-53
+294,Cundinamarca,Funza,Martinez Rico,Calle 10 # 14-40
+295,Cundinamarca,Funza,México,Calle 19 # 06-35
+296,Cundinamarca,Funza,Miradores de Celta,Calle 7 # 9-39
+297,Cundinamarca,Funza,Villa Paola,Calle 15 # 23 - 49
+298,Cundinamarca,Gachancipa,Centro,Carrera 3 # 4-14
+299,Cundinamarca,Girardot,Gaitán,Cra 14 # 20-37
+300,Cundinamarca,Girardot,Granada,Carrera 10 # 20-46/48
+301,Cundinamarca,Guasca,Centro,Calle 4 # 4-21
+302,Cundinamarca,La calera,Ajedrez,Carrera 6 # 7-08
+303,Cundinamarca,La calera,Coovital,Carrera 2B # 9-28
+304,Cundinamarca,La calera,Libano,Kilometro 7 vía Bogotá - Vereda Líbano
+305,Cundinamarca,La mesa,Centro,Calle 8 # 21A-22
+306,Cundinamarca,La mesa,Las Ceibas,Calle 4 # 28-16
+307,Cundinamarca,La vega,El Rosario,Carrera 1 # 21-72
+308,Cundinamarca,Madrid,Casa Blanca,Calle 7 # 1E-60
+309,Cundinamarca,Madrid,La Magnolia,Calle 6 #9-10
+310,Cundinamarca,Madrid,Las Orquideas,Calle 7 # 15A-10
+311,Cundinamarca,Mosquera,Centro,Carrera 5 # 3-24/28
+312,Cundinamarca,Sesquile,Centro,Carrera 8 # 6-37
+313,Cundinamarca,Soacha,Compartir,Calle 18 Sur # 12D-16
+314,Cundinamarca,Soacha,Ducales,Tranversal 11 # 9-05 Sur
+315,Cundinamarca,Soacha,Puente Terreros,Carrera 7 #39ª-27 Soacha.
+316,Cundinamarca,Soacha,Soacha Parque,Carrera 5 # 15-37
+317,Cundinamarca,Sopo,Montana,Calle 3 sur # 4-79
+318,Cundinamarca,Subachoque,El Centro,Carrera 2 # 4-43/35
+319,Cundinamarca,Suesca,Centro,Carrera 7 # 8-97
+320,Cundinamarca,Tabio,Centro,Diagonal 7 # 01-74
+321,Cundinamarca,Tabio,El Portal,Carrera 3 # 2-31
+322,Cundinamarca,Tenjo,Colegio Santander,Carrera 5 # 4-50
+323,Cundinamarca,Tocancipa,Canavita,Kilometro 20 via Bogotá - Tocancipá
+324,Cundinamarca,Tocancipa,Centro,Carrera 7 # 7-69
+325,Cundinamarca,Villa de san diego d,Centro,Calle 3A # 8E-69
+326,Cundinamarca,Villa de san diego d,La Legua,Calle 15 # 4A-85
+327,Cundinamarca,Zipaquira,Barandillas,Calle 3 # 4-176
+328,Cundinamarca,Zipaquira,Centro,Calle 9 # 10-34
+329,Cundinamarca,Zipaquira,Potosí,Carrera 7 # 11-23
+330,Cundinamarca,Zipaquira,San Pablo,Calle 2 # 10-25
+331,Cundinamarca,Zipaquira,San Rafael,Carrera 17 # 26-10
+332,Tolima,Ibague,Avenida Pedro Tafur,Carrera 5 Sur # 83-40
+333,Tolima,Ibague,Miramar,Calle 20 Sur # 23-127
+334,Antioquia,Medellín,America,Calle 44 BB # 86-30
+335,Antioquia,Medellín,Boston ,Carrera 39 #50-42
+336,Antioquia,Medellín,Buenos Aires,Calle 49 # 30-26.
+337,Antioquia,Medellín,Campo Valdes,Carrera 49 # 83-15
+338,Antioquia,Medellín,Florida,Calle 44 A #71-86
+339,Antioquia,Medellín,Laureles,Circular 2da # 72-20
+340,Antioquia,Medellín,los Colores,Carrera 80 # 52B-23
+341,Antioquia,Medellín,Parque,Carrera 86 # 65A-39
+342,Antioquia,Medellín,San Joaquin,Cra 68 A # 42A-37
+343,Antioquia,Bello,Maria Goretti,Carrera 65 A # 68-31
+344,Antioquia,Bello,Niquia,Diagonal 57 # 44-25
+345,Antioquia,Bello,Prado,Carrera 48 # 47-15
+346,Antioquia,Envigado,Las Palmas,
+347,Caldas,Manizales,Avenida Santander,Carrera 23 # 59-111
+348,Caldas,Manizales,Centro,Calle 24 # 20-20
+349,Caldas,Manizales,Palermo,Calle 67 # 27-34
+350,Risaralda,Pereira,Centro,Carrera 27 # 71-10
+351,Cundinamarca,"Bogotá, DC",20 de Julio ,Calle 24 Sur #7-32.
+352,Cundinamarca,"Bogotá, DC",Barrancas,Calle 158 # 7B-69
+353,Cundinamarca,"Bogotá, DC",Boyacá,Carrera 77 # 65A-04/12
+354,Cundinamarca,"Bogotá, DC",Carvajal,Calle 36 Sur # 72M-51
+355,Cundinamarca,"Bogotá, DC",Castellana,Calle 93 # 45-44
+356,Cundinamarca,"Bogotá, DC",Cedritos,Calle 140 #12B-90
+357,Cundinamarca,"Bogotá, DC",Chapinero,Calle 53 # 10-26
+358,Cundinamarca,"Bogotá, DC",Ferias,Carrera 69Q # 74B-37
+359,Cundinamarca,"Bogotá, DC",Galerias,Calle 57 # 24-33
+360,Cundinamarca,"Bogotá, DC",Normandia,Carrera 72 # 51-54
+361,Cundinamarca,"Bogotá, DC",Pardo Rubio,Carrera 7 # 50-06
+362,Cundinamarca,"Bogotá, DC",Prado Pinzón,Calle 138 # 45-80
+363,Cundinamarca,"Bogotá, DC",Prado Veraniego,Calle 129 # 57-78
+364,Cundinamarca,"Bogotá, DC",Restrepo,Calle 13 Sur # 24G-78
+365,Cundinamarca,"Bogotá, DC",San Antonio,Carrera 7 # 180-75
+366,Cundinamarca,"Bogotá, DC",San Cristóbal Norte,Carrera 8G # 162-40
+367,Cundinamarca,"Bogotá, DC",San Felipe,Calle 77 # 20B-37
+368,Cundinamarca,"Bogotá, DC",San Fernando ,Calle 72 # 64-62
+369,Cundinamarca,"Bogotá, DC",San Jose,Carrera 23 # 10-11
+370,Cundinamarca,"Bogotá, DC",San Patricio,Calle 108 # 15-12
+371,Cundinamarca,"Bogotá, DC",Santa Bárbara,Calle 125 # 19A-25
+372,Cundinamarca,"Bogotá, DC",Santa Sofia,Avenida calle 80 # 24-45
+373,Cundinamarca,"Bogotá, DC",Soledad Norte,Carrera 86 # 74A-26
+374,Cundinamarca,"Bogotá, DC",Toberin,Carrera 23 # 166-43
+375,Cundinamarca,"Bogotá, DC",Villas,Avenida Suba # 128A-14
+376,Antioquia,Medellín,Boston ,Carrera 39 # 50B-20
+377,Antioquia,Medellín,Laureles,Calle 42 # 74 -01
+378,Antioquia,Medellín,los Colores,Carera 78 A # 49B-7
+379,Antioquia,Medellín,San Joaquin,Calle 44 # 69-67
+380,Risaralda,Pereira,Centro,Carrera 9 # 24-62
+381,Cundinamarca,"Bogotá, DC",Chapinero,Carrera 8 # 63-27
+382,Cundinamarca,"Bogotá, DC",Prado Veraniego,Avenida Carrera 45 # 128C-61
+383,Cundinamarca,"Bogotá, DC",Restrepo,Carrera 27 #18-79 Sur.
+384,Cundinamarca,"Bogotá, DC",San Fernando ,Calle 68 # 55-38
+385,Cundinamarca,"Bogotá, DC",Santa Bárbara,Calle 116 # 17A-59
+386,Cundinamarca,"Bogotá, DC",Toberin,Calle 170 # 20A-21
+387,Risaralda,Pereira,Centro,Carrera 8 # 14 -52
+388,Cundinamarca,"Bogotá, DC",Prado Veraniego,Calle 128A # 51-52
+389,Cundinamarca,"Bogotá, DC",San Fernando ,Carrera 64 # 74-36
