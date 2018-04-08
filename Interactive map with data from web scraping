@@ -41,6 +41,7 @@ head(df)
 
 
 pacman::p_load(ggmap)
+pacman::p_load(RgoogleMaps)
 
 ##Addresses preparation for georef
 fuera<-c(4,35,38,44,60,63,80)
@@ -57,14 +58,15 @@ df$DireccionGeo<-ifelse(indfr==0,paste(df$Direccion,"Bogotá DC, Bogotá",sep = 
 
 ##Generate stores and Bogota City locations, it could take a few seconds for df processing
 d1loc <- geocode(as.character(df$DireccionGeo))
-Bog<-geocode('Bogotá, Colombia')
+#d1loc<-t(sapply(as.character(df$DireccionGeo),getGeoCode)) ##Another option for getting coords
+Bog<-geocode('Bogota, Colombia')
 d1loc<-cbind(df,d1loc)
 #Getting the map
-map.d1 <- get_map( location = Bog,
+map.d1 <- get_map( location = c(d1loc[1,7],d1loc[1,8]),
                        color = "color",
                        maptype = "roadmap",
                        scale = 2,
-                       zoom = 11)
+                       zoom = 7)
 
 #Drawing the map (static)
 ggmap(map.d1) 
@@ -79,7 +81,7 @@ ggmap(map.d1) + geom_point(aes(x = lon, y = lat),
 ##Representing stores on an interactive map from rMaps Library
 pacman::p_load(rMaps)
 map <- Leaflet$new()
-map$setView(c(4.710989,-74.07209), zoom = 11)
+map$setView(c(4.710989,-74.072092), zoom = 11)
 
 i=1
 while(i<=dim(na.omit(d1loc))[1]){
@@ -89,3 +91,134 @@ while(i<=dim(na.omit(d1loc))[1]){
 }
 
 map
+
+
+###Now trying to navigate with RSelenium. Making a Bot to Scrape D1 Web
+
+pacman::p_load(RSelenium, XML)
+rD <- rsDriver()
+remDr <- rD[["client"]]
+remDr$getStatus()
+remDr$open()  
+
+remDr$navigate("http://www.d1.com.co/#localidades")
+dept<-c("antioquia","santander","caldas","risaralda","cundinamarca",
+        "tolima","quindio","valle","cauca","boyaca")
+barrios<-list()
+ciudades<-list()
+depart<-list()
+for(dept1 in dept){
+  webElemDep <- remDr$findElement(using = 'xpath', value = paste0('//*[@id="',dept1,'"]'))  
+  webElemDep$clickElement()
+  Sys.sleep(runif(1,1,4))
+  depto<-unlist(webElemDep$getElementAttribute("id"))
+  webElemMun <- remDr$findElement(using = 'xpath', value = "//*[@id='munic_list']")
+  dimmun<-as.numeric(webElemMun$getElementAttribute("length"))
+  
+  for(i in 2:dimmun){
+    optmun <- remDr$findElement(using = 'xpath', paste0("//*[@id='munic_list']/option[",i,"]"))
+    Sys.sleep(runif(1,1,4))
+    optmun$clickElement()
+    Sys.sleep(runif(1,1,4))
+    munic<-unlist(optmun$getElementAttribute("outerHTML"))
+    munic<-gsub("</option>","",substr(munic,21,40))
+    webElemBar <- remDr$findElement(using = 'id', value = "barrio_list")
+    dimbar<-as.numeric(webElemBar$getElementAttribute("length"))  
+    Sys.sleep(runif(1,1,4))
+    
+    if(dimbar>1){
+      
+      for(j in 2:dimbar){
+      optbar <- remDr$findElement(using = 'xpath', paste0("//*[@id='barrio_list']/option[",j,"]"))
+      Sys.sleep(runif(1,1,4))
+      optbar$clickElement()
+      Sys.sleep(runif(1,1,4))
+      webElemAdd <- remDr$findElement(using = 'xpath', value = "//*[@id='infomapa']/div/ul")
+      
+      addtxt <- webElemAdd$getElementAttribute("outerHTML")
+      
+      addtxt1<-gsub("<ul>","",addtxt)
+      addtxt2<-gsub("</ul>","",addtxt1)
+      addtxt3<-gsub("</li>","",addtxt2)
+      addtxt3
+      
+      bartxt <- optbar$getElementAttribute("outerHTML")
+      
+      bartxt1<-gsub("<option value=","",bartxt)
+      bartxt2<-gsub("</option>","",bartxt1)
+      bartxt3<-gsub(">","",bartxt2)
+      barrios[[j]]<-list(depto,munic,bartxt3,
+                          unlist(strsplit(addtxt3,'<li>',fixed=TRUE)))
+    
+      
+    }}
+    ciudades[[i]]<-barrios
+    barrios<-list()
+  }
+  depart[[dept1]]<-ciudades
+  ciudades<-list()
+  
+  }
+
+index<-list()
+index2<-list()
+for (i in 1:length(depart)){
+  for(j in 1:length(depart[[i]])){
+   index[[j]]<-ifelse(length(depart[[i]][[j]])==0,NA,depart[[i]][[j]]) 
+  }
+  index2[[i]]<-index
+  index<-list()
+}
+
+pacman::p_load(stringi)
+Res<-list()
+city<-list()
+for(i in 1:6){
+ for(j in 1:length(depart[[i]])){
+  if(is.null(depart[[i]][[j]])==FALSE){
+  Res[[j]] <- data.frame(t(stri_list2matrix(depart[[i]][[j]])))
+  }}
+  city[[i]]<-rbindlist(Res)
+  Res<-list()
+}
+
+stores<-rbindlist(city)
+stores<-na.omit(stores)
+
+stores$X4<-gsub("&nbsp;","",stores$X4)
+write.csv(stores,"Res.csv")
+
+
+#Here the data is cleaned in Excel, the resulting file is attached as Res2.csv
+
+D1Stores<-read.csv("Res2.csv",sep=";")
+D1Stores$Direccion<-gsub("No.","#",D1Stores$Direccion)
+D1Stores$DireccionGeo<-paste(D1Stores$Direccion,D1Stores$Municipio,
+                             D1Stores$Departamento,sep = " ")
+                 
+
+##Generate stores and Bogota City locations, it could take a few seconds for df processing
+d1loc <- geocode(as.character(D1Stores$DireccionGeo))
+#d1loc<-t(sapply(as.character(df$DireccionGeo),getGeoCode)) ##Another option for getting coords
+Bog<-geocode('Bogotá, Colombia')
+d1loc<-cbind(D1Stores,d1loc)
+
+
+require(devtools)
+install_github('ramnathv/rCharts@dev')
+install_github('ramnathv/rMaps')
+
+  ##Representing stores on an interactive map from rMaps Library
+pacman::p_load(rMaps)
+map <- Leaflet$new()
+map$setView(c(4.710989,-74.072092), zoom = 11)
+
+i=1
+while(i<=dim(na.omit(d1loc))[1]){
+  map$marker(LatLng = cbind(na.omit(d1loc$lat),na.omit(d1loc$lon))[i,],
+             bindPopup=paste(na.omit(d1loc)[i,4],na.omit(d1loc)[i,5],sep='\t'))
+  i<-i+1
+}
+
+map
+
